@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RouteHeadComponent implements OnInit {
 
-  tab = 0;
+  tab = 1;
 
   setTab(num: number) {
     this.tab = num;

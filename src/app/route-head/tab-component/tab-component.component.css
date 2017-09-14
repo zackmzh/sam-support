@@ -1,0 +1,49 @@
+div {
+  width: 33.3%;
+}
+:host {
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (min-width: 769px){
+  .wrapper {
+    padding: 30px 10px;
+  }
+}
+
+.wrapper {
+  padding: 42px 10px;
+  background-color: #f7f7f7;
+  white-space: normal;
+  display: table-cell;
+  transition: background .3s;
+  border-left:2px solid #fff;
+}
+
+.active {
+  background-color: #fff;
+  box-shadow: 2px -8px 18px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index:2;
+}
+
+.active:after {
+  content: "";
+  display:block;
+  width: calc(100% + 2px);
+  height: 10px;
+  position: absolute;
+  left: -2px;
+  top: -10px;
+  background: #ffffff;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
