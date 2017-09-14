@@ -1,0 +1,69 @@
+<div *ngIf="typeNameP" id="typeDetail">
+
+
+  <div id="back" (click)="Back()" >Back</div>
+  <h3>What kind of {{typeNameP}} do you have</h3>
+
+
+  <div *ngIf="typeNameP==='Phones'" class="type">
+    <ul>
+      <li *ngFor="let phone of Phones">
+        <div>
+          <img [src]="phone.url" alt="phonePic">
+          <span>{{phone.name}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="typeNameP==='TVs'" class="type">
+    <ul>
+      <li *ngFor="let tv of TVs">
+        <div>
+          <img [src]="tv.url" alt="tvPic">
+          <span>{{tv.name}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="typeNameP==='Refrigerators'" class="type">
+    <ul>
+      <li *ngFor="let refrigerator of Refrigerators">
+        <div>
+          <img [src]="refrigerator.url" alt="refrigPic">
+          <span>{{refrigerator.name}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="typeNameP==='Washers'" class="type">
+    <ul>
+      <li *ngFor="let washer of Washers">
+        <div>
+          <img [src]="washer.url" alt="washerPic"><br/>
+          <span>{{washer.name}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="typeNameP==='Tablets'" class="type">
+    <ul>
+      <li *ngFor="let tablet of Tablets">
+        <div>
+          <img [src]="tablet.url" alt="tabletPic">
+          <span>{{tablet.name}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="typeNameP==='ChromeDevices'" class="type">
+    <ul>
+      <li *ngFor="let chromeDevice of ChromeDevices">
+        <div>
+          <img [src]="chromeDevice.url" alt="chromePic">
+          <span>{{chromeDevice.name}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="expand"></div>
+</div>

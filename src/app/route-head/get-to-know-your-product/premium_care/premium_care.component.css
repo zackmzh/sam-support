@@ -1,0 +1,58 @@
+#careHead{
+  width:100%;
+  margin:auto;
+  display:block;
+}
+
+#premiumCare{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 300px;
+  width:100%;
+}
+
+#careDetail{
+  display:inline-block;
+  margin:10% auto;
+}
+
+#careContentTitle{
+  text-align: center;
+  font-size: 40px;
+  color:black;
+}
+
+#careContent{
+  display:inline-block;
+  width:800px;
+  text-align:center;
+  margin-top:10px;
+  font-size: 11px;
+}
+
+#careContentPic{
+  margin-left: auto;
+  margin-right: auto;
+  height:130px;
+  width:100%;
+}
+
+#btn{
+  display:inline-block;
+  margin-top:4%;
+  background-color:darkblue;
+  vertical-align: middle;
+}
+
+.btn-circle {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 10px;
+  line-height: 1.428571429;
+  border-radius: 20px;
+}
+
+

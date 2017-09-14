@@ -9,6 +9,7 @@ import { ClickedDirective } from './clicked.directive';
 import { FindASolutionComponent } from './find-a-solution/find-a-solution.component';
 import { AllServiceComponent } from './find-a-solution/all-service/all-service.component';
 import { ProductSelectComponent } from './find-a-solution/product-select/product-select.component';
+import { GetToKnowYourProductComponent } from './get-to-know-your-product/get-to-know-your-product.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { ProductSelectComponent } from './find-a-solution/product-select/product
     ClickedDirective,
     FindASolutionComponent,
     AllServiceComponent,
-    ProductSelectComponent
+    ProductSelectComponent,
+    GetToKnowYourProductComponent
   ],
   exports: [
     RouteHeadComponent,
