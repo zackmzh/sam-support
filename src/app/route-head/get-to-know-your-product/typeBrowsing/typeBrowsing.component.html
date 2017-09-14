@@ -1,0 +1,45 @@
+<div *ngIf="valid">
+  <h2>Select Your Product Type</h2>
+  <div>
+    <ul id="manu">
+      <li class="hoverable">
+        <div (click)="select('Phones')">
+          <img [src]="phonePicUrl" alt="phones" title="phones" /><br>
+          <span>Phones</span>
+        </div>
+      </li>
+      <li class="hoverable">
+        <div (click)="select('TVs')">
+          <img [src]="tvPicUrl" alt="tvs" title="tvs"><br>
+          <span>TVs</span>
+        </div>
+      </li>
+      <li class="hoverable">
+        <div (click)="select('Refrigerators')">
+          <img [src]="refrigeratorPicUrl" alt="refrigerators" title="refrigerators"/><br>
+          <span>Refrigerators</span>
+        </div>
+      </li>
+      <li class="hoverable">
+        <div (click)="select('Washers')">
+          <img [src]="washerPicUrl" alt="washers" title="washers"/><br>
+          <span>Washers</span>
+        </div>
+      </li>
+      <li class="hoverable">
+        <div (click)="select('Tablets')">
+          <img [src]="tabletPicUrl" alt="tablets" title="tablets"><br>
+          <span>Tablets</span>
+        </div>
+      </li>
+      <li class="hoverable">
+        <div (click)="select('ChromeDevices')">
+          <img [src]="chromeDevicePicUrl" alt="chromeDevice" title="chromeDevice"><br>
+          <span>Chrome Device</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+    <div id="expand"></div>
+</div>
+<product-type [typeNameP]="typeName" (OnValid)="OnValid($event)" ></product-type>

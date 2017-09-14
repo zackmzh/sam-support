@@ -1,0 +1,46 @@
+h2{
+  text-align: center;
+}
+
+#manu{
+  margin: 3% 7%;
+
+}
+
+#manu li{
+  border-width: thin;
+  border:1px solid black;
+  border-color:lightslategrey;
+  height:200px;
+  width: 180px;
+  text-align: center;
+  border: 1px solid gainsboro;
+  list-style: none;
+  position: relative;
+  float:left;
+  /*margin:3px;*/
+  cursor:pointer;
+
+}
+
+#manu li div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+
+#manu li div img{
+  height:100px;
+  width:100px;
+}
+
+#expand {
+  clear:both
+}
+
+
+
