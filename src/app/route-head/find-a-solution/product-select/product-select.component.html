@@ -1,0 +1,71 @@
+<div class="container" *ngIf="status">
+  <div class="product_header">{{selectedProduct}} <a (click)="back()">Edit</a>
+    <h2>Which product do you need help with?</h2>
+  </div>
+  <div class="product_content">
+    <ul *ngFor="let product of products">
+      <li>
+        <div class="product_content_image">
+          <img src="{{product['url']}}" alt="Phones" title="Phones">
+        </div>
+        <h5>{{product['title']}}</h5>
+      </li>
+    </ul>
+  </div>
+  <section class="allProducts">
+    <div class="allProducts_container">
+      <div class="container-fluid">
+        <div class="show-all">
+          <h3 (click)="showAllProducts()">SHOW MORE PRODUCTS</h3>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </div>
+        <div class="allProduct-title" *ngIf="allProducts">
+          <h4>All Products</h4>
+          <div *ngFor="let item of AllProducts" >
+            <div>
+              <div class="allProduct_item_title">{{item['title']}}</div>
+            </div>
+            <div class="allProduct_item_detail" *ngFor="let p of item['contentList']">
+              <div class="content"><a href="{{p['url']}}">{{p['name']}}</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End all Product html-->
+      <div class="solutions">
+        <div class="solutions_container">
+          <h2>Top Maintenance Solution </h2>
+          <ul>
+            <li>
+              <div class="solutions_tag">
+                Maintenance
+              </div>
+              <div class="solution_title">
+                Update the Firmware on Your 2016 UHD TV with USB (UN**KU****)
+              </div>
+            </li>
+            <li>
+              <div class="solutions_tag">
+                Maintenance
+              </div>
+              <div class="solution_title">
+                Updating the Software on My Tab 4
+              </div>
+            </li>
+            <li>
+              <div class="solutions_tag">
+                Maintenance
+              </div>
+              <div class="solution_title">
+                Clean the TV Screen
+              </div>
+            </li>
+          </ul>
+          <div class="more-solution">
+            <a>SHOW MORE SOLUTIONS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

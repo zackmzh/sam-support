@@ -7,6 +7,8 @@ import { RouteHeadComponent } from './route-head.component';
 
 import { ClickedDirective } from './clicked.directive';
 import { FindASolutionComponent } from './find-a-solution/find-a-solution.component';
+import { AllServiceComponent } from './find-a-solution/all-service/all-service.component';
+import { ProductSelectComponent } from './find-a-solution/product-select/product-select.component';
 
 @NgModule({
   imports: [
@@ -17,7 +19,9 @@ import { FindASolutionComponent } from './find-a-solution/find-a-solution.compon
     TabContentComponentComponent,
     RouteHeadComponent,
     ClickedDirective,
-    FindASolutionComponent
+    FindASolutionComponent,
+    AllServiceComponent,
+    ProductSelectComponent
   ],
   exports: [
     RouteHeadComponent,
