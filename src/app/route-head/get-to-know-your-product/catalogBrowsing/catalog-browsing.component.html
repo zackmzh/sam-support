@@ -1,0 +1,71 @@
+<div id="show" (click)="show()" *ngIf="check">
+  SHOW MORE PRODUCT TYPE<br/>
+  <i class="material-icons">arrow_drop_down</i>
+</div>
+
+<div id="moreType" *ngIf="!check" class="row">
+  <div id="allProduct_title" (click)="show()">
+    <h6>ALL PRODUCTS</h6><br/>
+  </div>
+  <div id="allType" class="col s12 m8 l6">
+    <ul>
+      <li>
+        <div class="col 1 s3 offset-s2">
+          <h5>MOBILES</h5>
+          <div *ngFor="let mobile of mobiles" id="mobileProduct">
+            <span>{{mobile}}</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="col 1 s3">
+          <h5>COMPUTING</h5>
+          <div *ngFor="let computing of computings" id="computingProduct">
+            <span>{{computing}}</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="col 1 s3">
+          <h5>CAMERA</h5>
+          <div *ngFor="let camera of cameras" id="cameraProduct">
+            <span>{{camera}}</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="col 1 s3">
+          <h5>TVS & HOME THEATER</h5>
+          <div *ngFor="let tvHomeTheater of tv_home_theater" id="tvHomeTheaterProduct">
+            <span>{{tvHomeTheater}}</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="col 1 s3">
+          <h5>HOME APPLICATIONS</h5>
+          <div *ngFor="let homeApplication of home_applications" id="homeApplicationProduct">
+            <span>{{homeApplication}}</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="col 1 s3">
+          <h5>AUDIO</h5>
+          <div *ngFor="let audio of audios" id="audioProduct">
+            <span>{{audio}}</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="col 1 s3">
+          <h5>SMART HOME</h5>
+          <div *ngFor="let smartHome of smart_homes" id="smartHomeProduct">
+            <span>{{smartHome}}</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="clear"></div>
+</div>

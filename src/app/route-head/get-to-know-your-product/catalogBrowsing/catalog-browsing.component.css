@@ -1,0 +1,45 @@
+#show {
+  text-align: center;
+  cursor:pointer;
+}
+#allProduct_title{
+  border-top: 1px solid #979797;
+  display:block;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+#allType{
+  margin-top:-3%;
+  text-align: center;
+  width:100%;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+
+h5{
+  font-size: 20px;
+}
+
+li{
+  text-align: center;
+  padding:35px;
+  float:left;
+  list-style: none;
+}
+
+span{
+  color: lightslategrey;
+  cursor:pointer;
+  font-size: 13px;
+}
+
+#clear{
+  clear:both;
+}
+
+
+
+
