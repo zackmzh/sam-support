@@ -1,0 +1,26 @@
+<div class="tabs-selection">
+  <app-tab [active]="isSelected(1)" (click)="setTab(1)">
+    <div class="content">
+      <h2 class="title equalized" style="height: 22px;">GET TO KNOW YOUR PRODUCT</h2>
+      <p class="desc equalized" style="height: 46px;">Access setup guides, manuals, tips and more.</p>
+    </div>
+  </app-tab>
+  <app-tab [active]="isSelected(2)" (click)="setTab(2)">
+    <div class="content">
+      <h2 class="title equalized" style="height: 22px;">FIND A SOLUTION</h2>
+      <p class="desc equalized" style="height: 46px;">See FAQs, interactive demos, community forums, or get a repair.</p>
+    </div>
+  </app-tab>
+  <app-tab [active]="isSelected(3)" (click)="setTab(3)">
+    <div class="content">
+      <h2 class="title equalized" style="height: 22px;">CONTACT US FOR SUPPORT</h2>
+      <p class="desc equalized" style="height: 46px;">You can reach us via phone, chat, email, or ask the community.</p>
+    </div>
+  </app-tab>
+</div>
+
+<!--<div [ngSwitch]="tab">-->
+  <!--<app-tab-content *ngSwitchCase="1">Tab content 1</app-tab-content>-->
+  <!--<app-tab-content *ngSwitchCase="2"><app-fqamain-console></app-fqamain-console></app-tab-content>-->
+  <!--<app-tab-content *ngSwitchCase="3">Tab content 3</app-tab-content>-->
+<!--</div>-->

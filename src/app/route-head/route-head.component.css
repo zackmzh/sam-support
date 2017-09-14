@@ -1,0 +1,64 @@
+:host {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tabs-selection {
+  background-color: #fff;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  border-left:2px solid #fff;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.tabs-selection h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight:700;
+  margin-bottom: 11px;
+  letter-spacing: 1.8px;
+  line-height: 127.27273%;
+  display:block;
+
+}
+
+.tabs-selection p {
+  font-size:14px;
+  line-height: 1.7em;
+  font-weight: normal;
+  padding: 0 2%;
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+app-tab {
+  width: 33.3%;
+  background-color: #f7f7f7;
+
+}
+
+app-tab.clicked {
+  background-color: #fff;
+  box-shadow: 2px -8px 18px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index:2;
+}
+
+app-tab.clicked:after {
+  content: "";
+  display:block;
+  width: calc(100% + 2px);
+  height: 10px;
+  position: absolute;
+  left: -2px;
+  top: -10px;
+  background: #ffffff;
+}
+
+
+app-tab .content {
+  margin-left:2%;
+  margin-right:2%;
+}
