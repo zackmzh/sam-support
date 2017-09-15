@@ -14,6 +14,8 @@ import { CatalogBrowsingComponent } from './get-to-know-your-product/catalogBrow
 import { PremiumCareComponent } from './get-to-know-your-product/premium_care/premium_care.component';
 import { TypeBrowsingComponent } from './get-to-know-your-product/typeBrowsing/typeBrowsing.component';
 import { SubCatalogBrowsingComponent } from './get-to-know-your-product/sub-catalog-browsing/sub-catalog-browsing.component';
+import {SupportDetailComponent} from "./get-to-know-your-product/support-detail/support-detail.component";
+import {ProductTypeComponent} from "./get-to-know-your-product/type-detail/product-type.component";
 
 @NgModule({
   imports: [
@@ -31,7 +33,9 @@ import { SubCatalogBrowsingComponent } from './get-to-know-your-product/sub-cata
     CatalogBrowsingComponent,
     PremiumCareComponent,
     TypeBrowsingComponent,
-    SubCatalogBrowsingComponent
+    SubCatalogBrowsingComponent,
+    SupportDetailComponent,
+    ProductTypeComponent
   ],
   exports: [
     RouteHeadComponent,
