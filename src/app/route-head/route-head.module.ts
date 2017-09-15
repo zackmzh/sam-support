@@ -13,6 +13,7 @@ import { GetToKnowYourProductComponent } from './get-to-know-your-product/get-to
 import { CatalogBrowsingComponent } from './get-to-know-your-product/catalogBrowsing/catalogBrowsing.component';
 import { PremiumCareComponent } from './get-to-know-your-product/premium_care/premium_care.component';
 import { TypeBrowsingComponent } from './get-to-know-your-product/typeBrowsing/typeBrowsing.component';
+import { SubCatalogBrowsingComponent } from './get-to-know-your-product/sub-catalog-browsing/sub-catalog-browsing.component';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { TypeBrowsingComponent } from './get-to-know-your-product/typeBrowsing/t
     GetToKnowYourProductComponent,
     CatalogBrowsingComponent,
     PremiumCareComponent,
-    TypeBrowsingComponent
+    TypeBrowsingComponent,
+    SubCatalogBrowsingComponent
   ],
   exports: [
     RouteHeadComponent,
