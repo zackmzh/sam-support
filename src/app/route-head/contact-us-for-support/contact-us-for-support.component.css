@@ -1,0 +1,280 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.sp-g-contact-us__container__content {
+  display: table;
+  width: 100%;
+}
+.sp-g-contact-us__container__content__contact {
+  display: table-cell;
+  width: 447px;
+  height: 387px;
+  background: #f7f7f7;
+  vertical-align: middle;
+  padding: 24px;
+  text-align: center;
+}
+.sp-g-contact-us__container__title {
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 30px;
+  text-align: left;
+}
+.contact__phone {
+  padding-left: 34px;
+  position: relative;
+  font-size: 16px;
+  color: #636363;
+  letter-spacing: 0.8px;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+  min-width: 240px;
+}
+.sp-g-contact-us__container__content__contact .contact__phone .heading {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #1428a0;
+  margin-bottom: 16px;
+}
+.sp-g-contact-us__container__content__contact .contact__week span {
+  font-size: 14px;
+  color: #000;
+  line-height: 2;
+  letter-spacing: 0.7px;
+  font-weight: 700;
+  display: block;
+}
+.sp-g-contact-us__container__content__contact .contact__note {
+  font-size: 12px;
+  color: #363636;
+  margin-bottom: 18px;
+  min-width: 200px;
+}
+span {
+  display: block;
+}
+.subhead {
+  color: #636363;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: Arial,Helvetica;
+  font-size: 48px;
+  line-height: 125%;
+  font-weight: 400;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.sp-g-contact-us__container__content__options {
+  padding-left: 140px;
+  font-size: 14px;
+  color: #000;
+  display: table-cell;
+}
+
+.sp-g-contact-us__container__content__options li .contents, .sp-g-contact-us .sp-g-contact-us__container__content__options li .cta-holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+.sp-g-contact-us__container__content__options p {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  max-width: 331px;
+}
+
+.sp-g-contact-us__container__content__options li .social-link {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 10px;
+  min-width: 100%;
+}
+a {
+  color: #20a2ff;
+  text-decoration: none;
+}
+.sp-g-contact-us__container__content__options li .social-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+ul {
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .sp-g-contact-us__container__content__options li:first-child {
+    padding-top: 40px;
+  }
+}
+.sp-g-contact-us__container__content__options li:first-child {
+  padding-top: 0px;
+  border-top: none;
+}
+
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options li {
+    padding: 40px 0px;
+    text-align: center;
+  }}
+.sp-g-contact-us__container__content__options li {
+  display: table;
+  width: 100%;
+  padding: 20px 0px;
+  border-top: 1px solid #dadada;
+}
+
+element.style {
+}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options h3 {
+    margin-bottom: 20px;
+  }}
+.sp-g-contact-us__container__content__options h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+h3, .type-h3 {
+  font-size: 24px;
+  line-height: 166.66667%;
+  font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6, p, figcaption, button, select, textarea, svg path, svg rect, [class^="type-"] {
+  font-family: 'SamsungOneLatinWeb', 'SamsungSans', 'Interface_bd', Arial, Helvetica, 'San-Serif';
+  color: #363636;
+}
+
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options li .cta-holder {
+    width: 100%;
+  }}
+.sp-g-contact-us__container__content__options li .cta-holder {
+  width: 193px;
+}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options li .contents, .sp-g-contact-us .sp-g-contact-us__container__content__options li .cta-holder {
+    display: block;
+    width: 100%;
+  }}
+
+.sp-g-contact-us__container__content__options li .contents, .sp-g-contact-us .sp-g-contact-us__container__content__options li .cta-holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cta-holder {
+  color: #363636;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.sp-g-contact-us__container__content__options li .cta-holder .cta {
+  text-align: center;
+}
+.sp-g-contact-us__container__content .cta {
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border: solid 1px #000000;
+  padding: 17px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+
+.sp-g-contact-us__container__content__options .cta {
+  min-width: 193px;
+}
+
+.sp-g-contact-us__container__content__options li {
+  display: table;
+  width: 100%;
+  padding: 20px 0px;
+  border-top: 1px solid #dadada;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .sp-g-contact-us__container__content__contact {
+    width: 330px;
+  }
+}
+@media (max-width: 768px) {
+  .contact__note {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .sp-g-contact-us__container__content__contact .contact__phone span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__title {
+    font-weight: 700;
+    padding: 0px 15px 50px 15px;
+    text-align: center;
+  }}
+@media (max-width: 1024px) and (min-width: 769px){
+  .sp-g-contact-us__container__content__options {
+    padding-left: 10px;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container {
+    padding: 50px 0px;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__contact {
+    display: block;
+    width: 100%;
+    padding: 30px;
+    height: auto;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options li .contents, .sp-g-contact-us .sp-g-contact-us__container__content__options li .cta-holder {
+    display: block;
+    width: 100%;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options p {
+    max-width: 300px;
+    margin: 0 auto 20px auto;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options li .social-link {
+    display: block;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options li {
+    padding: 40px 0px;
+    text-align: center;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container {
+    padding: 50px 0px;
+  }}
+@media (max-width: 768px){
+  .sp-g-contact-us__container__content__options {
+    display: block;
+    width: 100%;
+    padding: 0px;
+  }}
+.sp-g-contact-us__container__content__options li .cta-holder {
+  display: table-cell;
+  vertical-align: middle;
+}
