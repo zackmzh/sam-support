@@ -10,6 +10,7 @@ export class AllServiceComponent implements OnInit {
   whole_container = true;
   default = 'test';
   sub_product_list = false;
+  editS = true;
 
   services = [
     'Audio & Sound', 'Data & Backup', 'Display or Screen', 'Features & Specs', 'How to', 'Maintenance', 'Network & Connectivity',
@@ -24,7 +25,9 @@ export class AllServiceComponent implements OnInit {
   }
 
   show(event) {
+    console.log(event);
     this.whole_container = event;
+    this.editS = !this.editS;
     this.sub_product_list = !event;
   }
 
