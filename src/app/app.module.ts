@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { RouteHeadModule } from './route-head/route-head.module';
+import { LayoutsComponent } from './layouts/layouts.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LayoutsComponent
   ],
   imports: [
     BrowserModule,
